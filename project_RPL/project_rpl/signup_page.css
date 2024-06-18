@@ -1,0 +1,58 @@
+/* Style untuk grid container */
+.grid-container {
+    display: grid;
+    grid-template-columns: 250px auto; /* Sidebar dan konten utama */
+    gap: 20px; /* Jarak antara sidebar dan konten utama */
+}
+
+/* Style untuk sidebar */
+.sidebar {
+    background-color: #f3f3f3; /* Warna background sidebar */
+    padding: 20px; /* Padding sidebar */
+}
+
+/* Style untuk konten utama */
+.main-content {
+    padding: 20px; /* Padding konten utama */
+}
+
+/* Style untuk judul dan logo */
+.grupLogo {
+    margin-bottom: 20px; /* Margin bawah */
+}
+
+/* Style untuk navbar */
+.grupNavbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.grupNavbar ul li {
+    margin-bottom: 10px;
+}
+
+.grupNavbar ul li a {
+    text-decoration: none;
+    color: #333; /* Warna teks */
+}
+
+/* Style untuk form sign up dan gambar */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.formContainer {
+    width: 45%; /* Lebar form container */
+}
+
+.imageContainer {
+    width: 45%; /* Lebar gambar container */
+}
+
+.albumImage {
+    width: 80%; /* Lebar gambar */
+    height: auto; /* Tinggi gambar */
+}

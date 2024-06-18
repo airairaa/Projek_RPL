@@ -1,0 +1,136 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #F5F5F5;
+    margin: 0;
+    padding: 0;
+}
+
+.grupLogo {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    height: 80px;
+    margin-right: 10px;
+}
+
+.titleLogo {
+    font-size: 48px;
+    font-weight: 700;
+    color: #4682B4;
+}
+
+.titleLogin {
+    font-size: 32px;
+    font-weight: 600;
+    color: #4682B4;
+}
+
+hr {
+    margin-top: 20px;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+nav.grupNavbar ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav.grupNavbar ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav.grupNavbar ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    font-family: 'Khula', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px auto;
+    width: 80%;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.albumImage {
+    width: 100%;
+    height: auto;
+    max-width: 800px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
+
+.formContainer {
+    width: 100%;
+    max-width: 500px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+.formGroup {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.formLabel {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-family: 'Khula', sans-serif;
+    font-weight: 600;
+}
+
+.inputField {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    border: 1px solid #4682B4;
+    border-radius: 8px;
+}
+
+.forgotPassword {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.forgotPassword a {
+    color: #4682B4;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Khula', sans-serif;
+}
+
+.submitButton {
+    width: 100%;
+    height: 50px;
+    background: #4682B4;
+    border-radius: 8px;
+    color: #F5F5F5;
+    font-size: 20px;
+    font-family: 'Khula', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+}

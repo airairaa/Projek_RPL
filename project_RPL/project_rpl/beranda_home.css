@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Khula:wght@300;400;600;700;800&display=swap');
+
+html, body {
+    width: 100%;
+    height: 125vh;
+    margin: 0;
+    font-family: 'Khula', sans-serif;
+}
+
+:root {
+    --bluewave: #4682B4;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.grupLogo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: var(--bluewave);
+}
+
+.logo {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.logo img {
+    width: 4rem;
+    height: 4rem;
+}
+
+.titleLogin {
+    font-size: 20px;
+    font-weight: normal;
+    color: white;
+    border-radius: 12px;
+    padding: 10px 20px 10px 20px;
+    background-color: var(--bluewave);
+    text-align: center;
+    cursor: pointer;
+}
+
+.titleLogin:hover {
+    border-color: 1px solid white ;
+}
+
+hr {
+    height: 1.5px;
+    margin: 0 20px;
+    background-color: black;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1.5rem;
+    margin: 20px;
+}
+
+ul li a {
+    color: black;
+    cursor: pointer;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.textImg {
+    font-size: 24px;
+    padding-bottom: 25px;
+}
+
+h1 {
+    font-size: 64px;
+    color: var(--bluewave);
+    font-family: 'Josefin', sans-serif;
+}
+
+.text, .daftar {
+    font-weight: bolder;
+    font-size: 28px;
+    margin-top: 60px;
+}
+
+.SignUp {
+    padding: 10px 30px 10px 30px;
+    border: 1px solid var(--bluewave);
+    border-radius: 12px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.SignUp:hover {
+    background-color: var(--bluewave);
+    color: white;
+}
